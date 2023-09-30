@@ -1,0 +1,50 @@
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    font-size: 15px;
+}
+
+.boxs .box {
+    padding: 30px;
+    border-radius: 5px;
+    background-color: white;
+    height: 260px;
+    width: 350px;
+    position: relative;
+    box-shadow: 0 0 20px #ddd;
+}
+
+.Supervisor {
+    border-top: 4px solid var(--Cyan);
+    margin-top: 150px;
+}
+
+.Team {
+    border-top: 4px solid var(--Red);
+    margin-bottom: 40px;
+}
+
+.Karma {
+    border-top: 4px solid var(--Orange);
+}
+
+.Calculator {
+    border-top: 4px solid var(--Blue);
+    margin-top: 150px;
+}
+
+img {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
